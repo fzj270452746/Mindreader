@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2874D0792ED232570076A641 /* EraoeiKoy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2874D0782ED232570076A641 /* EraoeiKoy.xcframework */; };
+		B0128CCB88F05C64C4D26BBD /* Pods_Mindreader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FF3A38E108E4C466ED2064 /* Pods_Mindreader.framework */; };
+		FE69A5E52ECB69FE00B0E7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE69A5DB2ECB69FE00B0E7D1 /* Assets.xcassets */; };
+		FE69A5E72ECB69FE00B0E7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE69A5DE2ECB69FE00B0E7D1 /* LaunchScreen.storyboard */; };
+		FE69A5E82ECB69FE00B0E7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE69A5E02ECB69FE00B0E7D1 /* Main.storyboard */; };
+		FE69A5EA2ECB69FE00B0E7D1 /* Mindreader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE69A5E12ECB69FE00B0E7D1 /* Mindreader.xcdatamodeld */; };
+		FE69A6382ECB74EB00B0E7D1 /* AdvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6282ECB74EB00B0E7D1 /* AdvVC.swift */; };
+		FE69A6392ECB74EB00B0E7D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6352ECB74EB00B0E7D1 /* SceneDelegate.swift */; };
+		FE69A63A2ECB74EB00B0E7D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62A2ECB74EB00B0E7D1 /* AppDelegate.swift */; };
+		FE69A63B2ECB74EB00B0E7D1 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6362ECB74EB00B0E7D1 /* UIButton+Extension.swift */; };
+		FE69A63C2ECB74EB00B0E7D1 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62F2ECB74EB00B0E7D1 /* InstructionsViewController.swift */; };
+		FE69A63D2ECB74EB00B0E7D1 /* MindreaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6312ECB74EB00B0E7D1 /* MindreaderModel.swift */; };
+		FE69A63E2ECB74EB00B0E7D1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6302ECB74EB00B0E7D1 /* IntroViewController.swift */; };
+		FE69A63F2ECB74EB00B0E7D1 /* GameDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62E2ECB74EB00B0E7D1 /* GameDataManager.swift */; };
+		FE69A6402ECB74EB00B0E7D1 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6332ECB74EB00B0E7D1 /* RecordsViewController.swift */; };
+		FE69A6412ECB74EB00B0E7D1 /* AdvVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6292ECB74EB00B0E7D1 /* AdvVC+Extension.swift */; };
+		FE69A6422ECB74EB00B0E7D1 /* ClassicGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62C2ECB74EB00B0E7D1 /* ClassicGameViewController.swift */; };
+		FE69A6432ECB74EB00B0E7D1 /* RecordsViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6342ECB74EB00B0E7D1 /* RecordsViewController+Extension.swift */; };
+		FE69A6442ECB74EB00B0E7D1 /* ClassicGameViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62D2ECB74EB00B0E7D1 /* ClassicGameViewController+Extension.swift */; };
+		FE69A6452ECB74EB00B0E7D1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6372ECB74EB00B0E7D1 /* UIView+Extension.swift */; };
+		FE69A6462ECB74EB00B0E7D1 /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A6322ECB74EB00B0E7D1 /* ModeSelectionViewController.swift */; };
+		FE69A6472ECB74EB00B0E7D1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A62B2ECB74EB00B0E7D1 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2874D0782ED232570076A641 /* EraoeiKoy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EraoeiKoy.xcframework; sourceTree = "<group>"; };
+		72FF3A38E108E4C466ED2064 /* Pods_Mindreader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mindreader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6DB30FC69FB7326B7E48DD /* Pods-Mindreader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mindreader.debug.xcconfig"; path = "Target Support Files/Pods-Mindreader/Pods-Mindreader.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAC30D8A23C209DE1C4FD17 /* Pods-Mindreader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mindreader.release.xcconfig"; path = "Target Support Files/Pods-Mindreader/Pods-Mindreader.release.xcconfig"; sourceTree = "<group>"; };
+		FE69A5BF2ECB69DF00B0E7D1 /* Mindreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE69A5DB2ECB69FE00B0E7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE69A5DC2ECB69FE00B0E7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE69A5DD2ECB69FE00B0E7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE69A5DF2ECB69FE00B0E7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE69A5E42ECB69FE00B0E7D1 /* Mindreader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindreader.xcdatamodel; sourceTree = "<group>"; };
+		FE69A6282ECB74EB00B0E7D1 /* AdvVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvVC.swift; sourceTree = "<group>"; };
+		FE69A6292ECB74EB00B0E7D1 /* AdvVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdvVC+Extension.swift"; sourceTree = "<group>"; };
+		FE69A62A2ECB74EB00B0E7D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE69A62B2ECB74EB00B0E7D1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FE69A62C2ECB74EB00B0E7D1 /* ClassicGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicGameViewController.swift; sourceTree = "<group>"; };
+		FE69A62D2ECB74EB00B0E7D1 /* ClassicGameViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassicGameViewController+Extension.swift"; sourceTree = "<group>"; };
+		FE69A62E2ECB74EB00B0E7D1 /* GameDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataManager.swift; sourceTree = "<group>"; };
+		FE69A62F2ECB74EB00B0E7D1 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		FE69A6302ECB74EB00B0E7D1 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		FE69A6312ECB74EB00B0E7D1 /* MindreaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindreaderModel.swift; sourceTree = "<group>"; };
+		FE69A6322ECB74EB00B0E7D1 /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
+		FE69A6332ECB74EB00B0E7D1 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		FE69A6342ECB74EB00B0E7D1 /* RecordsViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordsViewController+Extension.swift"; sourceTree = "<group>"; };
+		FE69A6352ECB74EB00B0E7D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE69A6362ECB74EB00B0E7D1 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		FE69A6372ECB74EB00B0E7D1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE69A5BC2ECB69DF00B0E7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2874D0792ED232570076A641 /* EraoeiKoy.xcframework in Frameworks */,
+				B0128CCB88F05C64C4D26BBD /* Pods_Mindreader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302100AC48D6FF947B811ED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6DB30FC69FB7326B7E48DD /* Pods-Mindreader.debug.xcconfig */,
+				EFAC30D8A23C209DE1C4FD17 /* Pods-Mindreader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D32F1796A58265F6D34769B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72FF3A38E108E4C466ED2064 /* Pods_Mindreader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE69A5B62ECB69DF00B0E7D1 = {
+			isa = PBXGroup;
+			children = (
+				FE69A5E32ECB69FE00B0E7D1 /* Mindreader */,
+				FE69A5C02ECB69DF00B0E7D1 /* Products */,
+				302100AC48D6FF947B811ED3 /* Pods */,
+				4D32F1796A58265F6D34769B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE69A5C02ECB69DF00B0E7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A5BF2ECB69DF00B0E7D1 /* Mindreader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE69A5E32ECB69FE00B0E7D1 /* Mindreader */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A64D2ECB7A9000B0E7D1 /* instrutons */,
+				FE69A64C2ECB7A9000B0E7D1 /* Records */,
+				FE69A64B2ECB7A8F00B0E7D1 /* Mode */,
+				FE69A6482ECB7A8500B0E7D1 /* ADV */,
+				FE69A62A2ECB74EB00B0E7D1 /* AppDelegate.swift */,
+				FE69A6352ECB74EB00B0E7D1 /* SceneDelegate.swift */,
+				2874D0782ED232570076A641 /* EraoeiKoy.xcframework */,
+				FE69A64F2ECB7AF100B0E7D1 /* Base */,
+				FE69A6492ECB7A8B00B0E7D1 /* Classic */,
+				FE69A64A2ECB7A8F00B0E7D1 /* Data */,
+				FE69A64E2ECB7AE200B0E7D1 /* Extension */,
+				FE69A5DB2ECB69FE00B0E7D1 /* Assets.xcassets */,
+				FE69A5DC2ECB69FE00B0E7D1 /* Info.plist */,
+				FE69A5DE2ECB69FE00B0E7D1 /* LaunchScreen.storyboard */,
+				FE69A5E02ECB69FE00B0E7D1 /* Main.storyboard */,
+				FE69A5E12ECB69FE00B0E7D1 /* Mindreader.xcdatamodeld */,
+			);
+			path = Mindreader;
+			sourceTree = "<group>";
+		};
+		FE69A6482ECB7A8500B0E7D1 /* ADV */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A6282ECB74EB00B0E7D1 /* AdvVC.swift */,
+				FE69A6292ECB74EB00B0E7D1 /* AdvVC+Extension.swift */,
+			);
+			path = ADV;
+			sourceTree = "<group>";
+		};
+		FE69A6492ECB7A8B00B0E7D1 /* Classic */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A62D2ECB74EB00B0E7D1 /* ClassicGameViewController+Extension.swift */,
+				FE69A62C2ECB74EB00B0E7D1 /* ClassicGameViewController.swift */,
+			);
+			path = Classic;
+			sourceTree = "<group>";
+		};
+		FE69A64A2ECB7A8F00B0E7D1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A6312ECB74EB00B0E7D1 /* MindreaderModel.swift */,
+				FE69A62E2ECB74EB00B0E7D1 /* GameDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FE69A64B2ECB7A8F00B0E7D1 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A6322ECB74EB00B0E7D1 /* ModeSelectionViewController.swift */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		FE69A64C2ECB7A9000B0E7D1 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A6332ECB74EB00B0E7D1 /* RecordsViewController.swift */,
+				FE69A6342ECB74EB00B0E7D1 /* RecordsViewController+Extension.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		FE69A64D2ECB7A9000B0E7D1 /* instrutons */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A62F2ECB74EB00B0E7D1 /* InstructionsViewController.swift */,
+				FE69A6302ECB74EB00B0E7D1 /* IntroViewController.swift */,
+			);
+			path = instrutons;
+			sourceTree = "<group>";
+		};
+		FE69A64E2ECB7AE200B0E7D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A6362ECB74EB00B0E7D1 /* UIButton+Extension.swift */,
+				FE69A6372ECB74EB00B0E7D1 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FE69A64F2ECB7AF100B0E7D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A62B2ECB74EB00B0E7D1 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE69A5BE2ECB69DF00B0E7D1 /* Mindreader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE69A5D52ECB69E100B0E7D1 /* Build configuration list for PBXNativeTarget "Mindreader" */;
+			buildPhases = (
+				8B34F05CCA263BC357FC1D15 /* [CP] Check Pods Manifest.lock */,
+				FE69A5BB2ECB69DF00B0E7D1 /* Sources */,
+				FE69A5BC2ECB69DF00B0E7D1 /* Frameworks */,
+				FE69A5BD2ECB69DF00B0E7D1 /* Resources */,
+				B1909723C3336449AD84C6E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mindreader;
+			productName = Mindreader;
+			productReference = FE69A5BF2ECB69DF00B0E7D1 /* Mindreader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE69A5B72ECB69DF00B0E7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FE69A5BE2ECB69DF00B0E7D1 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = FE69A5BA2ECB69DF00B0E7D1 /* Build configuration list for PBXProject "Mindreader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE69A5B62ECB69DF00B0E7D1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE69A5C02ECB69DF00B0E7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE69A5BE2ECB69DF00B0E7D1 /* Mindreader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE69A5BD2ECB69DF00B0E7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE69A5E52ECB69FE00B0E7D1 /* Assets.xcassets in Resources */,
+				FE69A5E72ECB69FE00B0E7D1 /* LaunchScreen.storyboard in Resources */,
+				FE69A5E82ECB69FE00B0E7D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B34F05CCA263BC357FC1D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mindreader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1909723C3336449AD84C6E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mindreader/Pods-Mindreader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mindreader/Pods-Mindreader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mindreader/Pods-Mindreader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE69A5BB2ECB69DF00B0E7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE69A5EA2ECB69FE00B0E7D1 /* Mindreader.xcdatamodeld in Sources */,
+				FE69A6382ECB74EB00B0E7D1 /* AdvVC.swift in Sources */,
+				FE69A6392ECB74EB00B0E7D1 /* SceneDelegate.swift in Sources */,
+				FE69A63A2ECB74EB00B0E7D1 /* AppDelegate.swift in Sources */,
+				FE69A63B2ECB74EB00B0E7D1 /* UIButton+Extension.swift in Sources */,
+				FE69A63C2ECB74EB00B0E7D1 /* InstructionsViewController.swift in Sources */,
+				FE69A63D2ECB74EB00B0E7D1 /* MindreaderModel.swift in Sources */,
+				FE69A63E2ECB74EB00B0E7D1 /* IntroViewController.swift in Sources */,
+				FE69A63F2ECB74EB00B0E7D1 /* GameDataManager.swift in Sources */,
+				FE69A6402ECB74EB00B0E7D1 /* RecordsViewController.swift in Sources */,
+				FE69A6412ECB74EB00B0E7D1 /* AdvVC+Extension.swift in Sources */,
+				FE69A6422ECB74EB00B0E7D1 /* ClassicGameViewController.swift in Sources */,
+				FE69A6432ECB74EB00B0E7D1 /* RecordsViewController+Extension.swift in Sources */,
+				FE69A6442ECB74EB00B0E7D1 /* ClassicGameViewController+Extension.swift in Sources */,
+				FE69A6452ECB74EB00B0E7D1 /* UIView+Extension.swift in Sources */,
+				FE69A6462ECB74EB00B0E7D1 /* ModeSelectionViewController.swift in Sources */,
+				FE69A6472ECB74EB00B0E7D1 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE69A5DE2ECB69FE00B0E7D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE69A5DD2ECB69FE00B0E7D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE69A5E02ECB69FE00B0E7D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE69A5DF2ECB69FE00B0E7D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE69A5D62ECB69E100B0E7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6DB30FC69FB7326B7E48DD /* Pods-Mindreader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mindreader/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Mindreader";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindreader.mr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE69A5D72ECB69E100B0E7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAC30D8A23C209DE1C4FD17 /* Pods-Mindreader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mindreader/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Mindreader";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindreader.mr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FE69A5D82ECB69E100B0E7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE69A5D92ECB69E100B0E7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE69A5BA2ECB69DF00B0E7D1 /* Build configuration list for PBXProject "Mindreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE69A5D82ECB69E100B0E7D1 /* Debug */,
+				FE69A5D92ECB69E100B0E7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE69A5D52ECB69E100B0E7D1 /* Build configuration list for PBXNativeTarget "Mindreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE69A5D62ECB69E100B0E7D1 /* Debug */,
+				FE69A5D72ECB69E100B0E7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE69A5E12ECB69FE00B0E7D1 /* Mindreader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE69A5E42ECB69FE00B0E7D1 /* Mindreader.xcdatamodel */,
+			);
+			currentVersion = FE69A5E42ECB69FE00B0E7D1 /* Mindreader.xcdatamodel */;
+			path = Mindreader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE69A5B72ECB69DF00B0E7D1 /* Project object */;
+}
